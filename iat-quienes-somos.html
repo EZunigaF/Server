@@ -1,0 +1,466 @@
+
+
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Equipo iAT</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="img/hero/iAT_WEB_Inicio.jpg" as="image">
+  <link rel="preload" href="img/icons/nav/iat_black.svg" as="image">
+
+ 
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<!-- IAT HEADER:
+Contiene navegacion movil y escritorio  -->
+
+<header class="sticky-top">
+  <nav id="navbar" class="navbar navbar-light bg-light w-100 pt-1">
+    <div class="container-fluid p-0 mx-0">
+      
+      <div class="row w-100">
+        <div class="col d-flex align-middle justify-content-start ps-4">
+          <button class="navbar-toggler border-0 nav_icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <!-- <span class="navbar-iat"></span> -->
+            <img class="nav_icon" src="img/icons/nav/Nav_menu.svg" alt="">
+          </button>
+        </div>
+        <div class="col d-flex align-middle justify-content-center">
+          <a href="index.html">
+          <img class="nav_icon_menu ms-2" src="img/icons/nav/iat_black.svg" alt=""></a>
+          </div>
+        <div class="col d-flex align-middle justify-content-end">
+          <button class="navbar-toggler border-0 nav_icon_search" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+            <!-- <span class="navbar-iat"></span> -->
+            <img class="" src="img/icons/nav/Nav_Buscar.svg" alt="icono_busqueda">
+          </button>
+        </div>
+      </div>
+
+      <div class="row w-100 m-0">
+        <div class="i-header-ul-menu container-fluid col-10 p-0">
+          <ul class="i-header-ul p-0 mb-0 justify-content-between">
+            <li class="i-header-li ">
+              <a href="index.html">Inicio
+                <div class="separador li-index"></div>
+              </a></li>
+
+            <li class="i-header-li active">
+              <a href="#">¿Quiénes somos?
+                <div class="separador li-quien"></div>
+              </a>
+              <ul class="i-h-dropdown" aria-label="submenu">
+                <li><a class="dropdown-item" href="#">Sobre el iAT</a></li>
+                <li><a class="dropdown-item" href="iat-quienes-somos.html">Equipo iAT</a></li>
+              </ul>
+            </li>
+
+              <li class="i-header-li">
+                <a href="iat-cursos.html">Cursos
+                  <div class="separador li-cur "></div>
+                </a>
+                <ul class="i-h-dropdown" aria-label="submenu">
+                  <li><a class="dropdown-item" href="iat-fotografia-cursos.html">FOTOGRAFÍA</a></li>
+                  <li><a class="dropdown-item" href="iat-audiovisual-cursos.html">AUDIOVISUAL</a></li>
+                  <li><a class="dropdown-item" href="iat-ediciondigital-cursos.html">DISEÑO</a></li>
+                </ul>
+              </a>
+              </li>
+
+            <li class="i-header-li">
+              <a href="#">Proyectos
+                <div class="separador li-proy "></div>
+              </a></li>
+            <li class="i-header-li">
+              <a href="iat-eventos.html">Eventos
+                <div class="separador li-index"></div>
+              </a></li>
+            <li class="i-header-li">
+              <a href="#">Contacto
+                <div class="separador li-contac"></div>
+              </a></li>
+
+            
+              
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<!-- CIERRE IAT HEADER:
+Contiene navegacion movil y escritorio  -->
+
+
+
+
+  <!-- IAT MENU BUSCADOR :
+  Contiene BUSCARDOR SUPERIOR -->
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-label="offcanvasTopLabel">
+    <div class="offcanvas-header pb-0">
+      <div class="row w-100 m-0">
+        <div class="col d-flex align-middle justify-content-center pb-1 ms-5">
+          <a href="#">
+          <img class="nav_icon_menu" src="img/icons/nav/iat_black.svg" alt=""></a>
+          </div>
+      </div>
+      <button type="button" class="btn-close text- me-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body p-0 d-flex align-middle justify-content-center ">
+      <div class="col-10">
+        <span class="fs-4 fw-bold"> Búsqueda</span>
+        <div class="d-flex ">
+          <input type="text" class="form-control" style="border: none; border-bottom: 2px solid black;" placeholder="Probar con Cursos libres">
+          <button type="button" class="btn i-h-t p-2" style="border-bottom: 2px solid black;">
+            <img class="" src="img/icons/nav/Nav_Buscar.svg" alt="icono_buscar_palabra">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- CIERRE IAT MENU BUSCADOR :
+    Contiene BUSCARDOR SUPERIOR -->
+
+  
+<!-- IAT MENU LATERAL MOVIL :
+Contiene menu de navegacion movil -->
+  <div class="offcanvas offcanvas-start ps-2" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-label="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <img class="i-h-l-l" src="img/icons/nav/iat_menu_lateral.png" alt="">
+      <button type="button" class="btn-close text-reset p-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body row w-100 m-0">
+      <div class="col-10">
+
+        <ul class="i-h-l-ul p-0 pt-1 mb-0 justify-content-between">
+          <li class="i-header-li ">
+            <a href="index.html ">Inicio
+              <div class="separador li-index"></div>
+            </a></li>
+
+
+          <li class="i-header-li active ">
+            <a href="#" id="navbarDropdownQuienes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ¿Quiénes somos?
+              <div class="separador li-quien"></div>
+            </a>
+            <a class="dropdown-toggle" id="navbarDropdownQuienes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownQuienes">
+              <li><a class="dropdown-item" href="#">Sobre el iAT</a></li>
+              <li><a class="dropdown-item" href="iat-quienes-somos.html">Equipo iAT</a></li>
+            </ul>
+          </li>
+            
+          <li class="i-header-li ">
+            <a href="iat-cursos.html" aria-haspopup="false">
+              Cursos
+              <div class="separador li-cur "></div>
+            </a>
+            <a class="dropdown-toggle" id="navbarDropdownCursos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownCursos">
+              <li><a class="dropdown-item" href="iat-fotografia-cursos.html">FOTOGRAFÍA</a></li>
+              <li><a class="dropdown-item" href="iat-audiovisual-cursos.html">AUDIOVISUAL</a></li>
+              <li><a class="dropdown-item" href="iat-ediciondigital-cursos.html">DISEÑO</a></li>
+            </ul>
+          </li>
+
+          <li class="i-header-li">
+            <a href="#">Proyectos
+              <div class="separador li-proy "></div>
+            </a></li>
+          <li class="i-header-li">
+            <a href="iat-eventos.html">Eventos
+              <div class="separador li-index"></div>
+            </a></li>
+          <li class="i-header-li">
+            <a href="#">Contacto
+              <div class="separador li-contac"></div>
+            </a></li>
+        </ul>
+
+        
+
+      </div>
+      <button type="button" class="btn float-end i-btn i-h-l-btn text-reset p-1" data-bs-dismiss="offcanvas" aria-label="Close">Cerrar</button>
+    </div>
+  </div>
+  <!-- CIERRE IAT MENU LATERAL MOVIL :
+Contiene menu de navegacion movil -->
+
+<!-- CIERRE IAT NAVEGACION SITIO-->
+
+<div class="row w-100 m-0">
+  <div class="container-fluid p-0">
+      <div class="d-flex justify-content-center quienes_encabezado">
+          <h1>Equipo de Trabajo</h1>
+      </div>
+  </div>
+</div>
+
+<div class="row w-100 m-0 equipo-coord">
+  <div class="container-fluid p-0 col-10 offset-1 mt-3">
+      <h2>Coordinación</h2>
+  </div>
+</div>
+
+
+
+<div id="equipo">
+
+  <div class="container-fluid p-0 col-10 offset-1 my-3">
+    <div class="row w-100 m-0">
+        <div class="col-6 col-lg-3 p-0 text-center align-self-end mb-4" data-bs-toggle="collapse" href="#vera2" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <!-- <a class="btn btn-primary" >
+                Link with href
+              </a> -->
+            <h3 >Vera Gerner</h3>
+            <div class="d-flex justify-content-center">
+                <div class="e-circle"></div>
+            </div>
+            <div class="d-flex justify-content-center my-2">
+                <div class="separador"></div>    
+            </div>                
+            Coordinación 
+        </div>
+        <div class="col-6 col-lg-3 p-0 text-center align-self-end mb-4" data-bs-toggle="collapse" href="#reinaldo2" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <!-- <a class="btn btn-primary" >
+                Link with href
+              </a> -->
+            <h3 >Reinaldo Amien</h3>
+            <div class="d-flex justify-content-center">
+                <div class="e-circle"></div>
+            </div>
+            <div class="d-flex justify-content-center my-2">
+                <div class="separador"></div>    
+            </div>                
+            Académico Escuela.
+        </div>
+        <div class="col-6 col-lg-3 p-0 text-center align-self-end mb-4" data-bs-toggle="collapse" href="#vera2" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <!-- <a class="btn btn-primary" >
+              Link with href
+            </a> -->
+          <h3 >Karla Vargas Herencia</h3>
+          <div class="d-flex justify-content-center">
+              <div class="e-circle"></div>
+          </div>
+          <div class="d-flex justify-content-center my-2">
+              <div class="separador"></div>    
+          </div>                
+          Coordinación Académica
+      </div>
+      <div class="col-6 col-lg-3 p-0 text-center align-self-end  mb-4" data-bs-toggle="collapse" href="#reinaldo2" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <!-- <a class="btn btn-primary" >
+              Link with href
+            </a> -->
+          <h3 class="m-0">Julio Orlando Quimbayo Bolaños</h3>
+          <div class="d-flex justify-content-center">
+              <div class="e-circle"></div>
+          </div>
+          <div class="d-flex justify-content-center my-2">
+              <div class="separador"></div>    
+          </div>                
+          Coordinación Académica
+      </div>
+    </div>
+  </div>   
+  
+  
+  <div class="collapse multi-collapse" id="vera2">
+    <div class="card card-body row m-0 p-0">
+      <div class="col-10 offset-1">
+        Vera Gerner (1968, Alemania, residente en Costa Rica desde el 2000), Académica del Programa Investigación, Arte y Transmedia (iAT) en representación de la Escuela de Danza y académica de la Vicerrectoría de Investigación de la Universidad Nacional.  Master en Musicología Comparativa por la Universidad Libre de Berlín, Alemania, Master en Artes con énfasis en Música por la Universidad de Costa Rica, y Técnico Medio en Audiovisuales por el Instituto Nacional de Aprendizaje.
+  
+        En el Programa iAT es la responsable de procesos y proyectos colaborativos con personas y organizaciones externas a la Universidad Nacional.
+         
+        En al ámbito artístico se ha dedicado a la exploración de proceso y metodologías audiovisuales, entre otros como co-realizadora, investigadora y sonidista de películas documentales, producciones sonoras y multimediales, siendo la más reciente el largometraje documental I am a trueborn Costa Rican – Los narradores del calypso. En el ámbito académico se ha dedicado a la investigación del arte popular y tradicional, buscando comprender la inserción social del arte. En ambos ámbitos tiene un especial interés en la creación de metodologías colaborativas. Cuenta con publicaciones y participaciones nacionales e internacionales en el ámbito audiovisual e investigativo.
+        
+      </div>
+        
+    </div>
+  </div>
+  
+  <div class="collapse multi-collapse" id="reinaldo2">
+    <div class="card card-body">
+        Reinaldo Amien Gutierrez (Costa Rica, 1978) Artista Escénico y Académico de la Escuela de Arte Escénico y del Programa de Investigación Arte y Transmedia (iAT). Bachiller en actuación y licenciatura en Artes Escénicas de la Universidad Nacional, Costa Rica; Maestría en Administración de la Universidad de las Ciencias y el Arte.
+  
+  En el Programa Investigación, Arte y Transmedia es el responsable de procesos de vinculación dentro del CIDEA, a partir de iniciativas de producción y apoyo transmedia a proyectos formales y no formales. 
+  
+  En al ámbito artístico ha desarrollado trabajos como gestor artístico, director escénico y actor; en el teatro, la danza, la producción audiovisual y la fotografía. En su propuesta artística se articulan conceptos de transmedia y trabajo colaborativo. Fundador de colectivos independendientes de artes escénicas (Los tres diablos de Costa Rica y Tres con Todo de México), gestor de proyectos artísticos culturales (Heredia Ciudad Mascarera en Costa Rica y Encuentro cooperativo de artistas escénicos El Puente en México y Costa Rica), egresado del taller internacional Malayerba de Ecuador, actor de una producción audiovisual (Lucia en el limbo) en la Semaine de la Critique del Festival de Cannes, Francia; actor de reparto en elenco de Teatro Nacional de Costa Rica (Una niña llamada Ana).
+        
+    </div>
+  </div>
+
+  <div class="row w-100 m-0 equipo-coord">
+    <div class="container-fluid p-0 col-10 offset-1 mt-3">
+        <h2>Administración</h2>
+    </div>
+  </div>
+
+  <div class="container-fluid p-0 col-10 offset-1 my-3">
+    <div class="row w-100 m-0">
+        <div class="col-6 p-0 text-center" data-bs-toggle="collapse" href="#vera2" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <!-- <a class="btn btn-primary" >
+                Link with href
+              </a> -->
+            <h3 >Silvia Orozco</h3>
+            <div class="d-flex justify-content-center">
+                <div class="e-circle"></div>
+            </div>
+            <div class="d-flex justify-content-center my-2">
+                <div class="separador"></div>    
+            </div>                
+            Profesional Servicios Administrativos
+        </div>
+        <div class="col-6 p-0 text-center" data-bs-toggle="collapse" href="#reinaldo2" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <!-- <a class="btn btn-primary" >
+                Link with href
+              </a> -->
+            <h3 >Maureen B.</h3>
+            <div class="d-flex justify-content-center">
+                <div class="e-circle"></div>
+            </div>
+            <div class="d-flex justify-content-center my-2">
+                <div class="separador"></div>    
+            </div>                
+            Administracion
+        </div>
+    </div>
+  </div>   
+
+  
+  
+</div>
+
+
+
+
+
+<!-- IAT SECCION PIE DE PAGINA / LOGOS ESCUELAS CIDEA. PROGRAMA IAT INICIO:
+Contiene SECCION PIE DE PAGINA / LOGOS ESCUELAS CIDEA. PROGRAMA IAT INICIO-->
+<footer>
+  <div class="i-f-hr">
+    <div class="separador hr-quien  w-100"></div>
+  </div>
+
+  <div class="row m-0 p-0 i-f-div pt-3">
+    <div class="col-11 offset-1 p-0 mt-4">
+
+      <div class="row m-0 p-0">
+        <div class="col-12 col-lg-3">
+          <img class="i-f-iat mb-4" src="img/footer/iAT_logo_Gris.svg" alt="Logo iAT_linea_grises">
+        </div>
+        <div class="col-12 col-lg-3 mb-3">
+          <ul class="i-f-ul p-0 justify-content-between">
+            <li class="i-f-li">
+              <a href="index.html">Inicio</a></li>
+            <li class="i-f-li">
+              <a href="iat-quienes-somos.html">¿Quiénes somos?</a></li>
+            <li class="i-f-li">
+              <a href="iat-cursos.html">Cursos</a></li>
+            <li class="i-f-li ">
+              <a href="#">Proyectos</a></li>
+            <li class="i-f-li">
+              <a href="iat-eventos.html">Eventos</a></li>
+            <li class="i-f-li">
+              <a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-5 mb-3">
+          <div class="row i-f-l-escuelas">
+            <div class="col-6 d-flex align-self-end  justify-content-start">
+              <img src="img/footer/i-f-eae-1.svg" id="eae-1" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-ed-2.svg" id="ed-2" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-eacv-3.svg" id="eacv-3" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-em-4.svg" id="em-4" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-cidea-5.svg" id="cidea-5" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-una-5.svg" id="una-5" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-5 d-flex i-f-social-icons justify-content-around p-0 mb-3">
+          <div class="col-1 d-flex justify-content-start align-self-end">
+            <a class="" href="https://www.facebook.com/iATprograma" target="_blank" rel="noopener noreferrer">
+              <img src="img/footer/i-f-facebook.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-1 d-flex justify-content-start align-self-end">
+            <a class="" href="https://www.instagram.com/programaiat" target="_blank" rel="noopener noreferrer">
+              <img src="img/footer/i-f-instagram.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-1 d-flex justify-content-start align-self-end">
+            <a class="" href="https://www.youtube.com/channel/UC13tBzWYgj3ILdbD8AviqCw" target="_blank" rel="noopener noreferrer">
+              <img src="img/footer/i-f-youtube.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-1 d-flex justify-content-start align-self-end ">
+            <a class="" href="https://www.linkedin.com/in/programa-investigaci%C3%B3n-arte-y-transmedia-iat-una-3b83641a8" target="_blank" rel="noopener noreferrer">
+              <img src="img/footer/i-f-linkedin.svg" alt="">
+            </a>
+          </div>
+          <div class="offset-xl-1 col-4 col-lg-3 d-flex i-f-cc align-self-end text-end">
+            <p class="m-0">© 2021 Programa iAT</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- IAT SECCION PIE DE PAGINA / LOGOS ESCUELAS CIDEA. PROGRAMA IAT INICIO:
+Contiene SECCION PIE DE PAGINA / LOGOS ESCUELAS CIDEA. PROGRAMA IAT INICIO-->
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+
+  
+  <script src="js/iat-equipo.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

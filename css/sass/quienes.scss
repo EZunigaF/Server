@@ -1,0 +1,97 @@
+@import "fonts.scss";
+@import "header.scss";
+@import "cursos.scss";
+@import "eventos.scss";
+@import "vars.scss";
+
+$title-regular: frutiger_roman;
+$title-italic: frutiger_italic;
+$text-regular: dosisregular;
+$text-bold: dosisbold;
+
+$background-color: #fff;
+$color-black: #262626;
+$color-index: rgba(214, 11, 82, 1);
+$color-index-b:rgba(255, 13, 98, 1);
+// $color-index-g: rgba(249, 184, 58, 1);
+
+
+$color-quienes: rgba(226, 42, 130, 1);
+$color-quienes-b: rgba(104,36,121,1);
+$color-quienes-mid: #ae2a98;
+$gra-quien: linear-gradient(0deg, rgba(104,36,121,1) 0%, rgba(226,42,130,1) 100%);
+
+$color-cursos: rgba(73, 177, 205, 1);
+$color-cursos-b: rgba(143, 192, 205, 1);
+$gra-cur: linear-gradient(0deg, rgba(56,120,189,1) 0%, rgba(73,177,205,1) 100%);
+
+$color-cursos-foto: rgba(73, 177, 205, 1);
+$color-cursos-audio: rgba(64, 148, 197, 1);
+$color-cursos-dise: rgba(56, 120, 189, 1);
+
+$color-proyectos: rgba(249, 207, 0, 1);
+$color-proyectos-b: rgba(249, 232, 149, 1);
+$gra-pro: linear-gradient(0deg, rgba(142,190,34,1) 0%, rgba(249,207,0,1) 100%);
+
+$color-contacto: rgba(38, 38, 38, 1);
+$color-contacto-b: rgba(70, 70, 70, 1);
+$gra-co: linear-gradient(0deg, rgba(235,93,121,1) 0%, rgba(249,184,58,1) 100%);
+
+$gradient-index: linear-gradient($color-index, $color-black);
+$linear: linear-gradient(180deg, #584952 -30.13%, #D91A5B -30.11%, #262626 141.85%);
+
+
+.quienes_encabezado{
+    // background: rgba(104,36,121,1);
+    background: $color-quienes-mid;
+    // background: #e62d8d;
+    color: $background-color;
+    font-weight: 600;
+}
+
+.equipo-coord{
+    background: $color-black;
+    color: $background-color;
+}
+
+.e-circle {
+    height: 90px;
+    width: 90px;
+    border: 1px solid $color-black;
+    background-color: rgb(170, 170, 170);
+    border-radius: 50%;
+  }
+
+  .i-header-li {
+    display: block;
+    transition-duration: 0.5s;
+   }
+   
+   .i-header-li:hover,
+   .i-header-li:focus-within {
+     cursor: pointer;
+     position: relative;
+   }
+   
+   
+   .i-header-ul > li > ul {
+     visibility: hidden;
+     opacity: 0;
+     display: none;
+   }
+   
+   .i-header-ul li:hover > ul,
+   .i-header-ul li:focus-within > ul,
+   .i-header-ul li ul:hover,
+   .i-header-ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block
+}
+
+.i-header-ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+  

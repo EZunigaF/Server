@@ -1,0 +1,514 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cursos Diseño</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+ 
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+
+
+<!-- IAT HEADER:
+Contiene navegacion movil y escritorio  -->
+
+<header class="sticky-top">
+  <nav id="navbar" class="navbar navbar-light bg-light w-100 pt-1">
+    <div class="container-fluid p-0 mx-0">
+      
+      <div class="row w-100">
+        <div class="col d-flex align-middle justify-content-start ps-4">
+          <button class="navbar-toggler border-0 nav_icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <!-- <span class="navbar-iat"></span> -->
+            <img class="nav_icon" src="img/icons/nav/Nav_menu.svg" alt="">
+          </button>
+        </div>
+        <div class="col d-flex align-middle justify-content-center">
+          <a href="index.html">
+          <img class="nav_icon_menu ms-2" src="img/icons/nav/iat_black.svg" alt=""></a>
+          </div>
+        <div class="col d-flex align-middle justify-content-end">
+          <button class="navbar-toggler border-0 nav_icon_search" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+            <!-- <span class="navbar-iat"></span> -->
+            <img class="" src="img/icons/nav/Nav_Buscar.svg" alt="icono_busqueda">
+          </button>
+        </div>
+      </div>
+
+      <div class="row w-100 m-0">
+        <div class="i-header-ul-menu container-fluid col-10 p-0">
+          <ul class="i-header-ul p-0 mb-0 justify-content-between">
+            <li class="i-header-li ">
+              <a href="index.html">Inicio
+                <div class="separador li-index"></div>
+              </a></li>
+
+            <li class="i-header-li">
+              <a href="#">¿Quiénes somos?
+                <div class="separador li-quien"></div>
+              </a>
+              <ul class="i-h-dropdown" aria-label="submenu">
+                <li><a class="dropdown-item" href="#">Sobre el iAT</a></li>
+                <li><a class="dropdown-item" href="iat-quienes-somos.html">Equipo iAT</a></li>
+              </ul>
+            </li>
+
+              <li class="i-header-li active">
+                <a href="iat-cursos.html">Cursos
+                  <div class="separador li-cur "></div>
+                </a>
+                <ul class="i-h-dropdown" aria-label="submenu">
+                  <li><a class="dropdown-item" href="iat-fotografia-cursos.html">FOTOGRAFÍA</a></li>
+                  <li><a class="dropdown-item" href="iat-audiovisual-cursos.html">AUDIOVISUAL</a></li>
+                  <li><a class="dropdown-item" href="iat-ediciondigital-cursos.html">DISEÑO</a></li>
+                </ul>
+              </a>
+              </li>
+
+            <li class="i-header-li">
+              <a href="#">Proyectos
+                <div class="separador li-proy "></div>
+              </a></li>
+            <li class="i-header-li">
+              <a href="iat-eventos.html">Eventos
+                <div class="separador li-index"></div>
+              </a></li>
+            <li class="i-header-li">
+              <a href="#">Contacto
+                <div class="separador li-contac"></div>
+              </a></li>
+
+            
+              
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<!-- CIERRE IAT HEADER:
+Contiene navegacion movil y escritorio  -->
+
+
+
+
+  <!-- IAT MENU BUSCADOR :
+  Contiene BUSCARDOR SUPERIOR -->
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-label="offcanvasTopLabel">
+    <div class="offcanvas-header pb-0">
+      <div class="row w-100 m-0">
+        <div class="col d-flex align-middle justify-content-center pb-1 ms-5">
+          <a href="#">
+          <img class="nav_icon_menu" src="img/icons/nav/iat_black.svg" alt=""></a>
+          </div>
+      </div>
+      <button type="button" class="btn-close text- me-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body p-0 d-flex align-middle justify-content-center ">
+      <div class="col-10">
+        <span class="fs-4 fw-bold"> Búsqueda</span>
+        <div class="d-flex ">
+          <input type="text" class="form-control" style="border: none; border-bottom: 2px solid black;" placeholder="Probar con Cursos libres">
+          <button type="button" class="btn i-h-t p-2" style="border-bottom: 2px solid black;">
+            <img class="" src="img/icons/nav/Nav_Buscar.svg" alt="icono_buscar_palabra">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- CIERRE IAT MENU BUSCADOR :
+    Contiene BUSCARDOR SUPERIOR -->
+
+  
+<!-- IAT MENU LATERAL MOVIL :
+Contiene menu de navegacion movil -->
+  <div class="offcanvas offcanvas-start ps-2" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-label="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <img class="i-h-l-l" src="img/icons/nav/iat_menu_lateral.png" alt="">
+      <button type="button" class="btn-close text-reset p-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body row w-100 m-0">
+      <div class="col-10">
+
+        <ul class="i-h-l-ul p-0 pt-1 mb-0 justify-content-between">
+          <li class="i-header-li ">
+            <a href="index.html ">Inicio
+              <div class="separador li-index"></div>
+            </a></li>
+
+
+          <li class="i-header-li ">
+            <a href="#" id="navbarDropdownQuienes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ¿Quiénes somos?
+              <div class="separador li-quien"></div>
+            </a>
+            <a class="dropdown-toggle" id="navbarDropdownQuienes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownQuienes">
+              <li><a class="dropdown-item" href="#">Sobre el iAT</a></li>
+              <li><a class="dropdown-item" href="iat-quienes-somos.html">Equipo iAT</a></li>
+            </ul>
+          </li>
+            
+          <li class="i-header-li active ">
+            <a href="iat-cursos.html" aria-haspopup="false">
+              Cursos
+              <div class="separador li-cur "></div>
+            </a>
+            <a class="dropdown-toggle" id="navbarDropdownCursos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownCursos">
+              <li><a class="dropdown-item" href="iat-fotografia-cursos.html">FOTOGRAFÍA</a></li>
+              <li><a class="dropdown-item" href="iat-audiovisual-cursos.html">AUDIOVISUAL</a></li>
+              <li><a class="dropdown-item" href="iat-ediciondigital-cursos.html">DISEÑO</a></li>
+            </ul>
+          </li>
+
+          <li class="i-header-li">
+            <a href="#">Proyectos
+              <div class="separador li-proy "></div>
+            </a></li>
+          <li class="i-header-li">
+            <a href="iat-eventos.html">Eventos
+              <div class="separador li-index"></div>
+            </a></li>
+          <li class="i-header-li">
+            <a href="#">Contacto
+              <div class="separador li-contac"></div>
+            </a></li>
+        </ul>
+
+        
+
+      </div>
+      <button type="button" class="btn float-end i-btn i-h-l-btn text-reset p-1" data-bs-dismiss="offcanvas" aria-label="Close">Cerrar</button>
+    </div>
+  </div>
+  <!-- CIERRE IAT MENU LATERAL MOVIL :
+Contiene menu de navegacion movil -->
+
+<!-- CIERRE IAT NAVEGACION SITIO-->
+
+
+
+
+<div class="container-fluid p-0 col-12  area">
+  <div class="row w-100 m-0">
+    <div class="container-fluid p-0 offset-1 col-10 area-encabezado">
+      <div class="retornar pt-3">
+        <a href="iat-cursos.html">
+          <span><img src="img/icons/return.svg" alt=""></span>
+          <h5>Cursos</h5>
+        </a>
+      </div>
+
+      <h1>Diseño y Edición Digital</h1>
+      <div class="separador"></div>
+
+      <h2 class="pt-4 text-center">Modalidades de Cursos</h2>
+
+    </div>
+
+
+    <div class="container-fluid col-12 col-sm-10 col-lg-9 col-xl-8 p-0 ">    
+      <div class="mytabs w-100 py-2 mb-4">
+        <!-- PESTAÑA CURSOS VIRTUAL
+        RADIO CHECK ON - OFF 
+        LABEL VIRTUAL
+        INDICADOR SEPARADOR -->
+        <input type="radio" id="virtual" name="mytabs" checked="checked">
+        <label class="col-6" for="virtual">
+          <div class="separador w-100 py-2"></div>
+          
+          <h3 class="mt-3">Virtual</h3>
+        </label>
+
+        <!-- CONTENIDO PESTAÑA SECCION VIRTUAL
+        HTML QUE INCLUYE LOS CARDS DE CADA CURSO -->
+        <div class="tab ">
+
+          <div class="iat-curso-card offset-1 offset-lg-2 col-10 col-lg-8 pt-3">
+
+            <a class="text-decoration-none"><h3 class="fw-bold p-4 pt-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">Producción Photoshop </h3></a>
+
+            <div class="iat-curso-card-info area-edicion-digital">
+              <span class="py-3"> </span>
+              <button class="iat-curso-card-btn-open btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                <img class="" src="img/iat_cursos/cursos/plus_edicion.svg" alt="">
+              </button>
+
+              <div class="collapse" id="collapseExample1">
+
+                <div class="row w-100 m-0 iat-curso-card-content ">
+
+                  <div class="row ms-3 p-0  iat-curso-card-content nivel area-edicion-digital">
+                    <p> <strong>Nivel:</strong> <br> <span>Básico</span> </p> 
+                  </div>
+
+                  <div class="row ms-3 p-0  iat-curso-card-content enfoque area-edicion-digital">
+                    <p> <strong>Enfoque:</strong> <br> <span>Teórico-práctico</span> </p> 
+                  </div>
+
+                  <div class="row ms-3 p-0  pt-1 iat-curso-card-content duracion area-edicion-digital">
+                    <p> <strong>Duración:</strong> <br> <span>40 Horas</span> </p> 
+                  </div>
+
+                  <div class="row ms-3 p-0 pt-2">
+                    
+
+                    <div class="row w-100 iat-curso-card-div-row-ver-mas">
+
+                      <div class="col-8 col-md-8 pe-4 align-self-end">
+                        <button class="btn m-0 iat-curso-card-info-btn-ver-mas area-edicion-digital ">
+                          <a href="iat-ediciondigital-produccion-photoshop.html"> Ir al curso </a>
+                          </button>
+                      </div>
+
+                      <div class="col-4 col-md-4 p-0 iat-card-horario pe-2">
+                        <div class="d-flex justify-content-center">
+                          
+                          <p class="m-0 fs-3 ">Matricular</p>
+                        </div>
+                        <p class="m-0 p-0 fw-bold fs-5 text-center">
+                          <a class="iat-curso-card-div-matricula area-edicion-digital-curso d-flex justify-content-center" href="https://www.fundauna.una.ac.cr/ssl/comercios/programaia/" target="_blank" rel="noopener noreferrer">
+                            FUNDAUNA
+                          </a>
+                        </p> 
+                      </div>
+                      
+                    </div>
+                    
+                  
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--           
+          <div class="iat-curso-card offset-1 offset-lg-2 col-10 col-lg-8 pt-3">
+
+            <a class="text-decoration-none" href="#"><h3 class="fw-bold p-4 pt-4">FOTOGRAFÍA DIGITAL BÁSICA</h3></a>
+
+            <div class="iat-curso-card-info-foto">
+              <span class="py-3"> </span>
+              <button class="iat-curso-card-btn-open btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampleFOTO" aria-expanded="false" aria-controls="collapseExample">
+                <img class="" src="img/icons/open_btn.png" alt="">
+              </button>
+
+              <div class="collapse" id="collapseExampleFOTO">
+
+                <div class="row w-100 m-0">
+
+                  <div class="row ms-3 p-0">
+                    <div class="col-5 col-md-7 align-self-start">
+                      <h4 class="m-0 fw-bold">Horario de clase:</h4>
+                    </div>
+                    <div class="col-6  col-md-4">
+
+                      <div class="row w-100">
+                        <div class="col p-0 iat-card-horario ps-4">
+                          <h5>LUN</h5>
+                          <p>13:40</p>
+                          <p>17:40</p>
+                        </div>
+                        <div class="col p-0 iat-card-horario">
+                          <h5>VIE</h5>
+                          <p>13:40</p>
+                          <p>17:40</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row ms-3 p-0 pt-2">
+                    <div class="col-10 m-0"><h4 class="m-0 fw-bold" >Inicio de lecciones:</h4></div>
+                    <div class="col-10">
+                      <p class="display-1 py-1 m-0 iat-curso-card-div-fecha">30 AGO</p>
+                    </div>
+
+                    <div class="row w-100 iat-curso-card-div-row-ver-mas">
+
+                      <div class="col-8 col-md-8 pe-4 align-self-end">
+                        <button class="w-100 btn py-3 iat-curso-card-info-btn-ver-mas ">Ir al curso</button>
+                      </div>
+
+                      <div class="col-4 col-md-4 pb-1 p-0 iat-card-horario pe-2">
+                        <div class="d-flex justify-content-end">
+                          
+                          <p class="m-0 fs-3 ">Matrícula:</p>
+                        </div>
+                        <div class="iat-curso-card-div-matricula d-flex justify-content-center">
+                          <p class="iat-curso-card-info-matricula PRONTO m-0 fs-2 fw-bold py-1">PRONTO</p>
+                        </div> 
+                      </div>
+                      
+                    </div>
+                    
+                  
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          
+        </div>
+
+
+        <!-- PESTAÑA CURSOS VIRTUAL
+        RADIO CHECK ON - OFF 
+        LABEL VIRTUAL
+        INDICADOR SEPARADOR -->
+        <input type="radio" id="tabgold" name="mytabs">
+        <label class="col-6" for="tabgold">
+          <div class="separador w-100 py-2"></div>
+          <h3 class="mt-3">Presencial</h3>
+          </label>
+
+          <!-- CONTENIDO PESTAÑA SECCION VIRTUAL
+        HTML QUE INCLUYE LOS CARDS DE CADA CURSO -->
+        <div class="tab">
+          <div class="d-flex pt-1 pb-2 justify-content-center">
+            <span class="d-flex align-middle pe-2">
+              <img class="iat-curso-empty" src="img/icons/empty.svg" alt="">
+            </span>
+            <p class="fs-4">Actualmente inactivo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- IAT SECCION PIE DE PAGINA / LOGOS ESCUELAS CIDEA. PROGRAMA IAT INICIO:
+Contiene SECCION PIE DE PAGINA / LOGOS ESCUELAS CIDEA. PROGRAMA IAT INICIO-->
+<footer>
+  <div class="i-f-hr">
+    <div class="separador hr-cur  w-100"></div>
+  </div>
+
+  <div class="row m-0 p-0 i-f-div pt-3">
+    <div class="col-11 offset-1 p-0 mt-4">
+
+      <div class="row m-0 p-0">
+        <div class="col-12 col-lg-3">
+          <img class="i-f-iat mb-4" src="img/footer/iAT_logo_Gris.svg" alt="Logo iAT_linea_grises">
+        </div>
+        <div class="col-12 col-lg-3 mb-3">
+          <ul class="i-f-ul p-0 justify-content-between">
+            <li class="i-f-li">
+              <a href="index.html">Inicio</a></li>
+            <li class="i-f-li">
+              <a href="iat-quienes-somos.html">¿Quiénes somos?</a></li>
+            <li class="i-f-li">
+              <a href="iat-cursos.html">Cursos</a></li>
+            <li class="i-f-li ">
+              <a href="#">Proyectos</a></li>
+            <li class="i-f-li">
+              <a href="iat-eventos.html">Eventos</a></li>
+            <li class="i-f-li">
+              <a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-5 mb-3">
+          <div class="row i-f-l-escuelas">
+            <div class="col-6 d-flex align-self-end  justify-content-start">
+              <img src="img/footer/i-f-eae-1.svg" id="eae-1" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-ed-2.svg" id="ed-2" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-eacv-3.svg" id="eacv-3" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-em-4.svg" id="em-4" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-cidea-5.svg" id="cidea-5" alt="">
+            </div>
+            <div class="col-6  d-flex align-self-end justify-content-start">
+              <img src="img/footer/i-f-una-5.svg" id="una-5" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-5 d-flex i-f-social-icons justify-content-around p-0 mb-3">
+          <div class="col-1 d-flex justify-content-start align-self-end">
+            <a class="" href="https://www.facebook.com/iATprograma" target="_blank" rel="noopener noreferrer">
+              <img src="img/footer/i-f-facebook.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-1 d-flex justify-content-start align-self-end">
+            <a class="" href="https://www.instagram.com/programaiat" target="_blank" rel="noopener noreferrer">
+              <img src="img/footer/i-f-instagram.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-1 d-flex justify-content-start align-self-end">
+            <a class="" href="https://www.youtube.com/channel/UC13tBzWYgj3ILdbD8AviqCw" target="_blank" rel="noopener noreferrer">
+              <img src="img/footer/i-f-youtube.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-1 d-flex justify-content-start align-self-end ">
+            <a class="" href="https://www.linkedin.com/in/programa-investigaci%C3%B3n-arte-y-transmedia-iat-una-3b83641a8" target="_blank" rel="noopener noreferrer">
+              <img src="img/footer/i-f-linkedin.svg" alt="">
+            </a>
+          </div>
+          <div class="offset-xl-1 col-4 col-lg-3 d-flex i-f-cc align-self-end text-end">
+            <p class="m-0">© 2021 Programa iAT</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- IAT SECCION PIE DE PAGINA / LOGOS ESCUELAS CIDEA. PROGRAMA IAT INICIO:
+Contiene SECCION PIE DE PAGINA / LOGOS ESCUELAS CIDEA. PROGRAMA IAT INICIO-->
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+
+
+
+

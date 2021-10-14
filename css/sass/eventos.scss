@@ -1,0 +1,115 @@
+@import "vars.scss";
+
+
+$title-regular: frutiger_roman;
+$title-italic: frutiger_italic;
+$text-regular: dosisregular;
+$text-bold: dosisbold;
+
+$background-color: #fff;
+$color-black: #262626;
+$color-index: rgba(214, 11, 82, 1);
+$color-index-b:rgba(255, 13, 98, 1);
+// $color-index-g: rgba(249, 184, 58, 1);
+$color-quienes: rgba(226, 42, 130, 1);
+$color-quienes-b: rgba(226, 136, 179, 1);
+$color-cursos: rgba(73, 177, 205, 1);
+
+
+$color-cursos-foto: rgba(73, 177, 205, 1);
+$color-cursos-audio: rgba(64, 148, 197, 1);
+$color-cursos-dise: rgba(56, 120, 189, 1);
+
+$color-cursos-b: rgba(143, 192, 205, 1);
+$color-proyectos: rgba(249, 207, 0, 1);
+$color-proyectos-b: rgba(249, 232, 149, 1);
+$color-contacto: rgba(38, 38, 38, 1);
+$color-contacto-b: rgba(70, 70, 70, 1);
+$gradient-index: linear-gradient($color-index, $color-black);
+$gradient-cursos: linear-gradient(0deg, $color-cursos-audio 0%, $color-cursos-dise 100%);
+$linear: linear-gradient(180deg, #E8178A -30.13%, #D91A5B -30.11%, #262626 141.85%);
+
+.evento_encabezado{
+    background-color: $color-index;
+    color: $background-color;
+    font-weight: 600;
+}
+
+.evento{
+    cursor: pointer;
+    .evento_info{
+        a{
+            p{
+                color: #262626;
+            }
+            text-decoration: none;
+            &:active{
+                
+                p{
+                    color: $color-index;
+                }
+            }
+            
+        }
+    }
+}
+
+
+
+.evento_presentes{
+    background-color: $background-color;
+    h2{
+        color: $color-black;    
+    }
+    
+    .separador{
+        background-color: $color-index;
+    }
+
+}
+
+.evento_historicos{
+    background-color: $background-color;
+    color: $color-black;
+}
+
+
+.evento_modelo_encabezado{
+    background: $color-index;
+    color: $background-color;
+}
+
+.retornar-evento{
+    
+    a{
+        text-decoration: none;
+        h5{
+            color: $color-black;
+            font-weight: 600;
+            &:hover{
+                
+                color: $color-index;
+
+            }
+        }
+    }
+}
+
+.accordion-item{
+    
+    h2{
+        font-family: $text-bold;
+        color: $background-color;
+    }
+}
+
+.accordion-button{
+    border: 1.3px solid #262626;
+    background-color: $color-index;
+    color: $background-color;
+}
+
+.accordion-button:not(.collapsed){
+    color: $background-color;
+    background-color: $color-index;
+}

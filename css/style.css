@@ -1,0 +1,1492 @@
+@font-face {
+  font-family: 'dosisregular';
+  src: url("fonts/dosis-regular-webfont.woff2") format("woff2"), url("fonts/dosis-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosisbold';
+  src: url("fonts/dosis-bold-webfont.woff2") format("woff2"), url("fonts/dosis-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'frutiger_italic';
+  src: url("fonts/frutiger-italic-webfont.woff2") format("woff2"), url("fonts/frutiger-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'frutiger_roman';
+  src: url("fonts/frutiger-roman-webfont.woff2") format("woff2"), url("fonts/frutiger-roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.i-f-div {
+  background: #262626; }
+
+.i-f-hr .separador {
+  height: 21px !important; }
+
+.i-f-hr .separador.hr-index {
+  background-color: #d60b52 !important; }
+
+.i-f-hr .separador.hr-quien {
+  background-color: #ae2a98 !important; }
+
+.i-f-hr .separador.hr-cur {
+  background-color: #4094c5 !important; }
+
+.i-f-hr .separador.hr-proy {
+  background-color: #c4c711 !important; }
+
+.i-f-hr .separador.hr-contac {
+  background-color: #f28b5a !important; }
+
+.i-f-ul {
+  list-style-type: none;
+  line-height: 2.9rem; }
+
+.i-f-li > a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 19px; }
+
+.i-f-li.active > a {
+  color: #262626;
+  font-size: 1.1em;
+  text-decoration: none;
+  margin-bottom: 19px;
+  font-weight: 700; }
+
+.i-f-li.active > a {
+  color: #262626;
+  font-size: 1.1em;
+  text-decoration: none;
+  margin-bottom: 19px;
+  font-weight: 700; }
+
+.i-f-iat {
+  width: 6rem; }
+
+.i-f-logo {
+  min-width: 120px;
+  width: 80%;
+  max-width: 140px; }
+
+.i-f-line {
+  background: #262626; }
+
+.i-f-line > div {
+  color: #fff; }
+
+.i-f-l-escuelas > div > img {
+  max-height: 5rem;
+  margin-bottom: 2rem; }
+
+.i-f-cc {
+  color: #fff; }
+
+.i-f-social-icons > div > a > img {
+  width: 2.1rem; }
+
+@media (min-width: 992px) {
+  html .i-f-social-icons > div > a > img {
+    width: 1.8rem; }
+  html .i-f-l-escuelas > div > img {
+    max-height: 136px;
+    margin-bottom: 2rem; }
+  html .i-f-social-icons {
+    -webkit-transform: translateY(-50px);
+    margin-top: -67px; } }
+
+.container-area-curso {
+  padding-top: 2rem;
+  min-width: 300px;
+  transition: 1s; }
+  .container-area-curso a {
+    text-decoration: none; }
+    .container-area-curso a h2 {
+      color: #fff; }
+    .container-area-curso a:hover h2 {
+      color: #262626;
+      font-weight: 700; }
+
+.container-area-curso-btn {
+  width: 100%;
+  min-height: 125px;
+  border: none;
+  padding-inline-start: 12px;
+  border-bottom: 10px solid #fff;
+  text-decoration: none;
+  border-radius: 6px; }
+
+.foto {
+  background-color: #49b1cd !important; }
+
+.dise {
+  background-color: #317abf !important; }
+
+.audio {
+  background-color: #4094c5 !important; }
+
+.container-area-matricula {
+  background-color: #fff;
+  margin-bottom: 1rem; }
+
+.container-area-matricula > img {
+  width: 100%; }
+
+.faq {
+  background-color: #464646;
+  color: #fff; }
+  .faq .separador {
+    background-color: #fff; }
+
+.faq-pregunta {
+  background-color: #fff;
+  color: #262626; }
+
+.pregunta {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #b1b1b1; }
+
+.pregunta > p {
+  color: #464646;
+  font-weight: 500;
+  font-size: 1.15rem; }
+
+.yt-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */ }
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+.container-encabezado-cursos {
+  background-color: #262626;
+  color: #fff; }
+  .container-encabezado-cursos h1 {
+    color: #fff; }
+
+.container-encabezado-cursos > div > .separador {
+  background-color: #fff; }
+
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ececec;
+  border-radius: 6px; }
+
+.mytabs input[type="radio"] {
+  display: none; }
+
+.mytabs label {
+  background-color: #BEBEBE;
+  font-weight: bold;
+  text-align: center;
+  font-size: 34px;
+  min-height: 85px; }
+
+.mytabs label > .separador {
+  background-color: #BEBEBE; }
+
+.mytabs .tab {
+  width: 100%;
+  padding-top: 29px;
+  background-color: #ececec;
+  transition: opacity 0.8s ease-in-out;
+  order: 1;
+  display: none; }
+
+.mytabs .tab h2 {
+  font-size: 3em; }
+
+.mytabs input[type='radio']:checked + label + .tab {
+  display: block; }
+
+.mytabs input[type="radio"]:checked + label {
+  background: #ececec; }
+  .mytabs input[type="radio"]:checked + label .separador {
+    transition: background-color 0.2s ease;
+    background-color: #262626; }
+  .mytabs input[type="radio"]:checked + label h3 {
+    font-size: 1.81rem;
+    font-weight: 600;
+    color: #262626; }
+
+.area {
+  background-color: #fff; }
+
+.area-encabezado {
+  color: #262626; }
+
+.retornar a {
+  text-decoration: none; }
+  .retornar a h5 {
+    color: #262626;
+    font-weight: 600; }
+    .retornar a h5:hover {
+      color: #317abf; }
+
+.iat-curso-card {
+  background-color: #bebebe;
+  color: #fff;
+  margin-bottom: 35px;
+  margin-top: 15px; }
+  .iat-curso-card a {
+    color: #262626; }
+
+.condiciones-matricula {
+  background-color: #4094c5;
+  border-radius: 12px;
+  color: #fff; }
+
+.iat-curso-card-info {
+  background-color: #b1b1b1; }
+
+.iat-curso-card-info.area-fotografia {
+  background-color: #1C1C1C;
+  border-bottom: 18px solid #bebebe; }
+
+.iat-curso-card-info.area-audiovisual {
+  background-color: #1C1C1C;
+  border-bottom: 18px solid #bebebe; }
+
+.iat-curso-card-info.area-edicion-digital {
+  background-color: #1C1C1C;
+  border-bottom: 18px solid #bebebe; }
+
+.iat-curso-card-info-matricula.area-fotografia {
+  color: #fff; }
+
+.iat-curso-card-info-matricula.area-audiovisual {
+  color: #fff; }
+
+.iat-curso-card-info-matricula.area-edicion-digital {
+  color: #fff; }
+
+.iat-curso-card-info-matricula:hover {
+  color: #fff !important; }
+
+.iat-curso-card-info-matricula.PRONTO {
+  color: #fff; }
+
+.iat-curso-card-div-matricula {
+  margin-bottom: 3.2px; }
+
+.iat-curso-card-div-matricula.area-fotografia {
+  background-color: #49b1cd;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.iat-curso-card-div-matricula.area-fotografia-curso {
+  background-color: #49b1cd;
+  border-radius: 4px;
+  border: 1px solid #262626;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  text-decoration: none;
+  color: #fff; }
+  .iat-curso-card-div-matricula.area-fotografia-curso:hover {
+    -webkit-transform: scale(1.125);
+    transition: 0.31s; }
+
+.iat-curso-card-div-matricula.area-audiovisual-curso {
+  background-color: #4094c5;
+  border-radius: 4px;
+  border: 1px solid #262626;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  text-decoration: none;
+  color: #fff; }
+  .iat-curso-card-div-matricula.area-audiovisual-curso:hover {
+    -webkit-transform: scale(1.125);
+    transition: 0.31s; }
+
+.iat-curso-card-div-matricula.area-edicion-digital-curso {
+  background-color: #317abf;
+  border-radius: 4px;
+  border: 1px solid #262626;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  text-decoration: none;
+  color: #fff; }
+  .iat-curso-card-div-matricula.area-edicion-digital-curso:hover {
+    -webkit-transform: scale(1.125);
+    transition: 0.31s; }
+
+.iat-curso-card-div-matricula.area-fotografia-curso.card {
+  border: 1px solid #ffffff00 !important;
+  cursor: default; }
+
+.iat-curso-card-div-matricula.area-edicion-digital-curso.card {
+  border: 1px solid #ffffff00 !important;
+  cursor: default; }
+
+.iat-curso-card-div-matricula.area-audiovisual-curso.card {
+  border: 1px solid #ffffff00 !important;
+  cursor: default; }
+
+.iat-curso-card-div-matricula.area-audiovisual {
+  background-color: #4094c5;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.iat-curso-card-div-matricula.area-edicion-digital {
+  background-color: #317abf;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.iat-curso-card-info-btn-ver-mas {
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+  .iat-curso-card-info-btn-ver-mas a {
+    display: block;
+    width: 100%;
+    padding: .6rem 1rem .6rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: dosisbold;
+    font-size: 1.2rem; }
+
+.iat-curso-card-info-btn-ver-mas.area-fotografia {
+  background-color: #fff;
+  border: 2.2px solid #262626;
+  border-radius: 7px; }
+  .iat-curso-card-info-btn-ver-mas.area-fotografia:hover {
+    background-color: #49b1cd;
+    font-weight: 700; }
+    .iat-curso-card-info-btn-ver-mas.area-fotografia:hover a {
+      color: #fff; }
+
+.iat-curso-card-info-btn-ver-mas.area-audiovisual {
+  background-color: #fff;
+  border: 2.2px solid #262626;
+  border-radius: 7px; }
+  .iat-curso-card-info-btn-ver-mas.area-audiovisual:hover {
+    background-color: #4094c5;
+    font-weight: 700; }
+    .iat-curso-card-info-btn-ver-mas.area-audiovisual:hover a {
+      color: #fff; }
+
+.iat-curso-card-info-btn-ver-mas.area-edicion-digital {
+  background-color: #fff;
+  border: 2.2px solid #262626;
+  border-radius: 7px; }
+  .iat-curso-card-info-btn-ver-mas.area-edicion-digital:hover {
+    background-color: #317abf;
+    font-weight: 700; }
+    .iat-curso-card-info-btn-ver-mas.area-edicion-digital:hover a {
+      color: #fff; }
+
+.iat-curso-card-btn-open {
+  position: relative;
+  transform: translate(0.54rem, -1.8rem); }
+  .iat-curso-card-btn-open img {
+    width: 3rem; }
+
+.iat-curso-card-div-fecha {
+  font-size: 4.2rem; }
+
+.iat-curso-card-div-row-ver-mas {
+  transform: translateY(-9px); }
+
+.iat-card-horario h5 {
+  margin: 0; }
+
+.iat-card-horario p {
+  margin: 0%; }
+
+.iat-curso-empty {
+  min-width: 40px; }
+
+.iat-curso-card-content > div > p > strong {
+  font-family: frutiger_roman;
+  font-size: 1.25rem;
+  font-weight: normal !important;
+  padding-bottom: 1rem;
+  line-height: 3rem; }
+
+.iat-curso-card-content > div > p > span {
+  font-family: dosisbold;
+  font-size: 1.9rem; }
+
+.iat-curso-card-content.area-fotografia > p > span {
+  color: #49b1cd; }
+
+.iat-curso-card-content.duracion.area-fotografia > p > span {
+  font-size: 3.255rem; }
+
+.iat-curso-card-content.area-audiovisual > p > span {
+  color: #4094c5; }
+
+.iat-curso-card-content.duracion.area-audiovisual > p > span {
+  font-size: 3.255rem; }
+
+.iat-curso-card-content.area-edicion-digital > p > span {
+  color: #317abf; }
+
+.iat-curso-card-content.duracion.area-edicion-digital > p > span {
+  font-size: 3.255rem; }
+
+.iat-curso-title {
+  background-color: #1C1C1C;
+  border-radius: 8px;
+  color: #fff; }
+  .iat-curso-title .separador {
+    background-color: #bebebe; }
+
+.iat-curso-requisitio {
+  background-color: #262626;
+  color: #fff; }
+  .iat-curso-requisitio .separador {
+    background-color: #bebebe; }
+
+.iat-curso-requerimiento-content {
+  display: table-cell;
+  color: #fff; }
+  .iat-curso-requerimiento-content .separador {
+    background-color: #bebebe; }
+
+.iat-curso-requerimiento {
+  display: table;
+  background-color: #464646; }
+
+.iat-curso-grid-info .col-6 {
+  background-color: #E9E9E9;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border: 5px solid white;
+  border-radius: 8px; }
+
+.iat-curso-grid-info .col-12 {
+  background-color: #262626;
+  color: #fff;
+  border: 5px solid white;
+  padding: 1rem 0px 0px 1rem; }
+
+.curso_encabezado {
+  background-color: #4094c5;
+  color: #fff;
+  font-weight: 600; }
+
+.iat-curso-card-div-row-ver-mas {
+  transform: translateY(-9px); }
+
+@media (min-width: 576px) {
+  .iat-curso-card-div-row-ver-mas {
+    transform: translateY(-29px); }
+  .iat-curso-card-div-fecha {
+    font-size: 5.2rem; }
+  .iat-curso-empty {
+    min-width: 45px; }
+  .iat-curso-card-info-matricula {
+    font-size: 1.35rem; } }
+
+@media (min-width: 992px) {
+  .iat-curso-card-div-row-ver-mas {
+    transform: translateY(-49px); }
+  .iat-curso-card-info-matricula {
+    font-size: 1.5rem; }
+  .iat-curso-empty {
+    min-width: 55px; } }
+
+.evento_encabezado {
+  background-color: #d60b52;
+  color: #fff;
+  font-weight: 600; }
+
+.evento {
+  cursor: pointer; }
+  .evento .evento_info a {
+    text-decoration: none; }
+    .evento .evento_info a p {
+      color: #262626; }
+    .evento .evento_info a:active p {
+      color: #d60b52; }
+
+.evento_presentes {
+  background-color: #fff; }
+  .evento_presentes h2 {
+    color: #262626; }
+  .evento_presentes .separador {
+    background-color: #d60b52; }
+
+.evento_historicos {
+  background-color: #fff;
+  color: #262626; }
+
+.evento_modelo_encabezado {
+  background: #d60b52;
+  color: #fff; }
+
+.retornar-evento a {
+  text-decoration: none; }
+  .retornar-evento a h5 {
+    color: #262626;
+    font-weight: 600; }
+    .retornar-evento a h5:hover {
+      color: #d60b52; }
+
+.accordion-item h2 {
+  font-family: dosisbold;
+  color: #fff; }
+
+.accordion-button {
+  border: 1.3px solid #262626;
+  background-color: #d60b52;
+  color: #fff; }
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #d60b52; }
+
+@font-face {
+  font-family: 'dosisregular';
+  src: url("fonts/dosis-regular-webfont.woff2") format("woff2"), url("fonts/dosis-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosisbold';
+  src: url("fonts/dosis-bold-webfont.woff2") format("woff2"), url("fonts/dosis-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'frutiger_italic';
+  src: url("fonts/frutiger-italic-webfont.woff2") format("woff2"), url("fonts/frutiger-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'frutiger_roman';
+  src: url("fonts/frutiger-roman-webfont.woff2") format("woff2"), url("fonts/frutiger-roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.container-area-curso {
+  padding-top: 2rem;
+  min-width: 300px;
+  transition: 1s; }
+  .container-area-curso a {
+    text-decoration: none; }
+    .container-area-curso a h2 {
+      color: #fff; }
+    .container-area-curso a:hover h2 {
+      color: #262626;
+      font-weight: 700; }
+
+.container-area-curso-btn {
+  width: 100%;
+  min-height: 125px;
+  border: none;
+  padding-inline-start: 12px;
+  border-bottom: 10px solid #fff;
+  text-decoration: none;
+  border-radius: 6px; }
+
+.foto {
+  background-color: #49b1cd !important; }
+
+.dise {
+  background-color: #317abf !important; }
+
+.audio {
+  background-color: #4094c5 !important; }
+
+.container-area-matricula {
+  background-color: #fff;
+  margin-bottom: 1rem; }
+
+.container-area-matricula > img {
+  width: 100%; }
+
+.faq {
+  background-color: #464646;
+  color: #fff; }
+  .faq .separador {
+    background-color: #fff; }
+
+.faq-pregunta {
+  background-color: #fff;
+  color: #262626; }
+
+.pregunta {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #b1b1b1; }
+
+.pregunta > p {
+  color: #464646;
+  font-weight: 500;
+  font-size: 1.15rem; }
+
+.yt-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */ }
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+.container-encabezado-cursos {
+  background-color: #262626;
+  color: #fff; }
+  .container-encabezado-cursos h1 {
+    color: #fff; }
+
+.container-encabezado-cursos > div > .separador {
+  background-color: #fff; }
+
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ececec;
+  border-radius: 6px; }
+
+.mytabs input[type="radio"] {
+  display: none; }
+
+.mytabs label {
+  background-color: #BEBEBE;
+  font-weight: bold;
+  text-align: center;
+  font-size: 34px;
+  min-height: 85px; }
+
+.mytabs label > .separador {
+  background-color: #BEBEBE; }
+
+.mytabs .tab {
+  width: 100%;
+  padding-top: 29px;
+  background-color: #ececec;
+  transition: opacity 0.8s ease-in-out;
+  order: 1;
+  display: none; }
+
+.mytabs .tab h2 {
+  font-size: 3em; }
+
+.mytabs input[type='radio']:checked + label + .tab {
+  display: block; }
+
+.mytabs input[type="radio"]:checked + label {
+  background: #ececec; }
+  .mytabs input[type="radio"]:checked + label .separador {
+    transition: background-color 0.2s ease;
+    background-color: #262626; }
+  .mytabs input[type="radio"]:checked + label h3 {
+    font-size: 1.81rem;
+    font-weight: 600;
+    color: #262626; }
+
+.area {
+  background-color: #fff; }
+
+.area-encabezado {
+  color: #262626; }
+
+.retornar a {
+  text-decoration: none; }
+  .retornar a h5 {
+    color: #262626;
+    font-weight: 600; }
+    .retornar a h5:hover {
+      color: #317abf; }
+
+.iat-curso-card {
+  background-color: #bebebe;
+  color: #fff;
+  margin-bottom: 35px;
+  margin-top: 15px; }
+  .iat-curso-card a {
+    color: #262626; }
+
+.condiciones-matricula {
+  background-color: #4094c5;
+  border-radius: 12px;
+  color: #fff; }
+
+.iat-curso-card-info {
+  background-color: #b1b1b1; }
+
+.iat-curso-card-info.area-fotografia {
+  background-color: #1C1C1C;
+  border-bottom: 18px solid #bebebe; }
+
+.iat-curso-card-info.area-audiovisual {
+  background-color: #1C1C1C;
+  border-bottom: 18px solid #bebebe; }
+
+.iat-curso-card-info.area-edicion-digital {
+  background-color: #1C1C1C;
+  border-bottom: 18px solid #bebebe; }
+
+.iat-curso-card-info-matricula.area-fotografia {
+  color: #fff; }
+
+.iat-curso-card-info-matricula.area-audiovisual {
+  color: #fff; }
+
+.iat-curso-card-info-matricula.area-edicion-digital {
+  color: #fff; }
+
+.iat-curso-card-info-matricula:hover {
+  color: #fff !important; }
+
+.iat-curso-card-info-matricula.PRONTO {
+  color: #fff; }
+
+.iat-curso-card-div-matricula {
+  margin-bottom: 3.2px; }
+
+.iat-curso-card-div-matricula.area-fotografia {
+  background-color: #49b1cd;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.iat-curso-card-div-matricula.area-fotografia-curso {
+  background-color: #49b1cd;
+  border-radius: 4px;
+  border: 1px solid #262626;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  text-decoration: none;
+  color: #fff; }
+  .iat-curso-card-div-matricula.area-fotografia-curso:hover {
+    -webkit-transform: scale(1.125);
+    transition: 0.31s; }
+
+.iat-curso-card-div-matricula.area-audiovisual-curso {
+  background-color: #4094c5;
+  border-radius: 4px;
+  border: 1px solid #262626;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  text-decoration: none;
+  color: #fff; }
+  .iat-curso-card-div-matricula.area-audiovisual-curso:hover {
+    -webkit-transform: scale(1.125);
+    transition: 0.31s; }
+
+.iat-curso-card-div-matricula.area-edicion-digital-curso {
+  background-color: #317abf;
+  border-radius: 4px;
+  border: 1px solid #262626;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  text-decoration: none;
+  color: #fff; }
+  .iat-curso-card-div-matricula.area-edicion-digital-curso:hover {
+    -webkit-transform: scale(1.125);
+    transition: 0.31s; }
+
+.iat-curso-card-div-matricula.area-fotografia-curso.card {
+  border: 1px solid #ffffff00 !important;
+  cursor: default; }
+
+.iat-curso-card-div-matricula.area-edicion-digital-curso.card {
+  border: 1px solid #ffffff00 !important;
+  cursor: default; }
+
+.iat-curso-card-div-matricula.area-audiovisual-curso.card {
+  border: 1px solid #ffffff00 !important;
+  cursor: default; }
+
+.iat-curso-card-div-matricula.area-audiovisual {
+  background-color: #4094c5;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.iat-curso-card-div-matricula.area-edicion-digital {
+  background-color: #317abf;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.iat-curso-card-info-btn-ver-mas {
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+  .iat-curso-card-info-btn-ver-mas a {
+    display: block;
+    width: 100%;
+    padding: .6rem 1rem .6rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: dosisbold;
+    font-size: 1.2rem; }
+
+.iat-curso-card-info-btn-ver-mas.area-fotografia {
+  background-color: #fff;
+  border: 2.2px solid #262626;
+  border-radius: 7px; }
+  .iat-curso-card-info-btn-ver-mas.area-fotografia:hover {
+    background-color: #49b1cd;
+    font-weight: 700; }
+    .iat-curso-card-info-btn-ver-mas.area-fotografia:hover a {
+      color: #fff; }
+
+.iat-curso-card-info-btn-ver-mas.area-audiovisual {
+  background-color: #fff;
+  border: 2.2px solid #262626;
+  border-radius: 7px; }
+  .iat-curso-card-info-btn-ver-mas.area-audiovisual:hover {
+    background-color: #4094c5;
+    font-weight: 700; }
+    .iat-curso-card-info-btn-ver-mas.area-audiovisual:hover a {
+      color: #fff; }
+
+.iat-curso-card-info-btn-ver-mas.area-edicion-digital {
+  background-color: #fff;
+  border: 2.2px solid #262626;
+  border-radius: 7px; }
+  .iat-curso-card-info-btn-ver-mas.area-edicion-digital:hover {
+    background-color: #317abf;
+    font-weight: 700; }
+    .iat-curso-card-info-btn-ver-mas.area-edicion-digital:hover a {
+      color: #fff; }
+
+.iat-curso-card-btn-open {
+  position: relative;
+  transform: translate(0.54rem, -1.8rem); }
+  .iat-curso-card-btn-open img {
+    width: 3rem; }
+
+.iat-curso-card-div-fecha {
+  font-size: 4.2rem; }
+
+.iat-curso-card-div-row-ver-mas {
+  transform: translateY(-9px); }
+
+.iat-card-horario h5 {
+  margin: 0; }
+
+.iat-card-horario p {
+  margin: 0%; }
+
+.iat-curso-empty {
+  min-width: 40px; }
+
+.iat-curso-card-content > div > p > strong {
+  font-family: frutiger_roman;
+  font-size: 1.25rem;
+  font-weight: normal !important;
+  padding-bottom: 1rem;
+  line-height: 3rem; }
+
+.iat-curso-card-content > div > p > span {
+  font-family: dosisbold;
+  font-size: 1.9rem; }
+
+.iat-curso-card-content.area-fotografia > p > span {
+  color: #49b1cd; }
+
+.iat-curso-card-content.duracion.area-fotografia > p > span {
+  font-size: 3.255rem; }
+
+.iat-curso-card-content.area-audiovisual > p > span {
+  color: #4094c5; }
+
+.iat-curso-card-content.duracion.area-audiovisual > p > span {
+  font-size: 3.255rem; }
+
+.iat-curso-card-content.area-edicion-digital > p > span {
+  color: #317abf; }
+
+.iat-curso-card-content.duracion.area-edicion-digital > p > span {
+  font-size: 3.255rem; }
+
+.iat-curso-title {
+  background-color: #1C1C1C;
+  border-radius: 8px;
+  color: #fff; }
+  .iat-curso-title .separador {
+    background-color: #bebebe; }
+
+.iat-curso-requisitio {
+  background-color: #262626;
+  color: #fff; }
+  .iat-curso-requisitio .separador {
+    background-color: #bebebe; }
+
+.iat-curso-requerimiento-content {
+  display: table-cell;
+  color: #fff; }
+  .iat-curso-requerimiento-content .separador {
+    background-color: #bebebe; }
+
+.iat-curso-requerimiento {
+  display: table;
+  background-color: #464646; }
+
+.iat-curso-grid-info .col-6 {
+  background-color: #E9E9E9;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border: 5px solid white;
+  border-radius: 8px; }
+
+.iat-curso-grid-info .col-12 {
+  background-color: #262626;
+  color: #fff;
+  border: 5px solid white;
+  padding: 1rem 0px 0px 1rem; }
+
+.curso_encabezado {
+  background-color: #4094c5;
+  color: #fff;
+  font-weight: 600; }
+
+.iat-curso-card-div-row-ver-mas {
+  transform: translateY(-9px); }
+
+@media (min-width: 576px) {
+  .iat-curso-card-div-row-ver-mas {
+    transform: translateY(-29px); }
+  .iat-curso-card-div-fecha {
+    font-size: 5.2rem; }
+  .iat-curso-empty {
+    min-width: 45px; }
+  .iat-curso-card-info-matricula {
+    font-size: 1.35rem; } }
+
+@media (min-width: 992px) {
+  .iat-curso-card-div-row-ver-mas {
+    transform: translateY(-49px); }
+  .iat-curso-card-info-matricula {
+    font-size: 1.5rem; }
+  .iat-curso-empty {
+    min-width: 55px; } }
+
+.evento_encabezado {
+  background-color: #d60b52;
+  color: #fff;
+  font-weight: 600; }
+
+.evento {
+  cursor: pointer; }
+  .evento .evento_info a {
+    text-decoration: none; }
+    .evento .evento_info a p {
+      color: #262626; }
+    .evento .evento_info a:active p {
+      color: #d60b52; }
+
+.evento_presentes {
+  background-color: #fff; }
+  .evento_presentes h2 {
+    color: #262626; }
+  .evento_presentes .separador {
+    background-color: #d60b52; }
+
+.evento_historicos {
+  background-color: #fff;
+  color: #262626; }
+
+.evento_modelo_encabezado {
+  background: #d60b52;
+  color: #fff; }
+
+.retornar-evento a {
+  text-decoration: none; }
+  .retornar-evento a h5 {
+    color: #262626;
+    font-weight: 600; }
+    .retornar-evento a h5:hover {
+      color: #d60b52; }
+
+.accordion-item h2 {
+  font-family: dosisbold;
+  color: #fff; }
+
+.accordion-button {
+  border: 1.3px solid #262626;
+  background-color: #d60b52;
+  color: #fff; }
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #d60b52; }
+
+.quienes_encabezado {
+  background: #ae2a98;
+  color: #fff;
+  font-weight: 600; }
+
+.equipo-coord {
+  background: #262626;
+  color: #fff; }
+
+.e-circle {
+  height: 90px;
+  width: 90px;
+  border: 1px solid #262626;
+  background-color: #aaaaaa;
+  border-radius: 50%; }
+
+.i-header-li {
+  display: block;
+  transition-duration: 0.5s; }
+
+.i-header-li:hover,
+.i-header-li:focus-within {
+  cursor: pointer;
+  position: relative; }
+
+.i-header-ul > li > ul {
+  visibility: hidden;
+  opacity: 0;
+  display: none; }
+
+.i-header-ul li:hover > ul,
+.i-header-ul li:focus-within > ul,
+.i-header-ul li ul:hover,
+.i-header-ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block; }
+
+.i-header-ul li ul li {
+  clear: both;
+  width: 100%; }
+
+html {
+  font-size: 14px;
+  font-family: dosisregular !important; }
+  html a {
+    color: #d60b52; }
+
+h1 {
+  font-size: 1.802rem;
+  font-family: frutiger_roman;
+  margin-bottom: 1rem;
+  font-weight: 600; }
+
+h2 {
+  font-size: 1.602rem;
+  font-family: frutiger_roman;
+  margin-bottom: 1rem;
+  font-weight: 600; }
+
+h3 {
+  font-size: 1.424rem;
+  font-family: frutiger_roman;
+  margin-bottom: 1rem; }
+
+h4 {
+  font-size: 1.266rem;
+  font-family: frutiger_roman;
+  margin-bottom: 1rem; }
+
+h5 {
+  font-size: 1.125rem;
+  font-family: frutiger_roman;
+  margin-bottom: 1rem; }
+
+.navbar {
+  box-shadow: 0 -9px 12px 5px #464646;
+  transition: top 0.4s ease-in; }
+
+p {
+  margin-top: 19px;
+  font-family: dosisregular;
+  line-height: 150%;
+  margin-bottom: 1rem; }
+
+.hero > img {
+  max-width: 1600px;
+  width: 100%;
+  max-height: 600px;
+  height: auto;
+  object-fit: cover; }
+
+.i-btn {
+  padding: 0;
+  margin: 0;
+  background-color: #d60b52;
+  border: 1.3px solid #262626; }
+  .i-btn a {
+    display: block;
+    width: 100%;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: dosisbold;
+    font-size: 1.2rem;
+    color: #fff; }
+  .i-btn:hover {
+    background-color: #ff0d62;
+    border: 1.3px solid #262626; }
+  .i-btn:active {
+    color: #262626;
+    background-color: #ff0d62; }
+  .i-btn:focus {
+    background-color: #ff0d62; }
+
+.i-social > div > a > img {
+  max-height: 4rem;
+  margin-bottom: 1rem; }
+  .i-social > div > a > img:hover {
+    -webkit-transform: scale(1.2);
+    transition: 0.2s; }
+
+.container-iat {
+  background: #fff;
+  color: #262626; }
+
+.container-iat-misvis {
+  background: #262626;
+  color: #fff; }
+
+.container-iat-misvis > div > div > div > .separador {
+  background-color: #D91A5B; }
+
+.container-iat-subscribir {
+  background: #464646; }
+
+.i-header-ul-menu {
+  display: none; }
+
+.i-header-div {
+  background: #f2f2f2; }
+
+.i-header-ul {
+  list-style-type: none;
+  display: none;
+  line-height: 1.369rem;
+  margin: 0; }
+
+.i-header-ul > li > ul {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  position: absolute; }
+
+.i-header-li {
+  display: block;
+  position: relative !important; }
+
+.i-m-dropdown > li {
+  color: #ae2a98; }
+
+.i-h-dropdown {
+  list-style-type: none;
+  padding: 0.5rem;
+  background-color: #f8f9fa; }
+  .i-h-dropdown li > a {
+    text-decoration: none; }
+
+.dropdown-item.active, .dropdown-item:active, .dropdown-item.active {
+  background-color: #262626; }
+
+.dropdown-item:hover {
+  -webkit-transform: scale(1.1);
+  -webkit-text-size-adjust: color(#F9B83A);
+  transition: 0.125s; }
+
+.dropdown-item:focus {
+  transition: 0.125s; }
+
+.dropdown-item:active {
+  color: #fff; }
+
+.dropdown-menu.show {
+  padding: .5rem !important; }
+
+.separador {
+  width: 77px;
+  height: 7px;
+  background-color: #262626; }
+
+.i-header-li > a > .separador {
+  display: block;
+  width: 0%; }
+
+.i-header-li > a {
+  color: #262626;
+  font-size: 1.1em;
+  text-decoration: none;
+  margin-bottom: 19px;
+  font-weight: 350; }
+  .i-header-li > a:hover {
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    transition: 0.125s; }
+    .i-header-li > a:hover .separador {
+      width: 100%;
+      transition: width 1s; }
+  .i-header-li > a:focus .separador {
+    width: 100%;
+    transition: width 1s; }
+
+.i-header-li:hover .separador {
+  width: 100%;
+  max-width: 77px;
+  transition: width 1s; }
+
+.i-header-li:hover .separador.li-index {
+  background-color: #d60b52 !important; }
+
+.i-header-li:hover .separador.li-quien {
+  background-color: #ae2a98 !important; }
+
+.i-header-li:hover .separador.li-cur {
+  background-color: #4094c5 !important; }
+
+.i-header-li:hover .separador.li-proy {
+  background-color: #c4c711 !important; }
+
+.i-header-li:hover .separador.li-contac {
+  background-color: #f28b5a !important; }
+
+.i-header-li:focus .separador {
+  width: 100%;
+  transition: width 1s; }
+
+.i-header-li:focus .separador.li-index {
+  background-color: #d60b52 !important; }
+
+.i-header-li:focus .separador.li-quien {
+  background-color: #ae2a98 !important; }
+
+.i-header-li:focus .separador.li-cur {
+  background-color: #4094c5 !important; }
+
+.i-header-li:focus .separador.li-proy {
+  background-color: #c4c711 !important; }
+
+.i-header-li:focus .separador.li-contac {
+  background-color: #f28b5a !important; }
+
+.i-header-li.active > a {
+  color: #262626;
+  font-size: 1em;
+  text-decoration: none;
+  margin-bottom: 19px;
+  font-weight: 600;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; }
+
+.i-header-li.active > a > .separador {
+  display: block;
+  background-color: #D91A5B;
+  width: 100%; }
+
+.i-header-li.active > a > .separador.li-cur {
+  display: block;
+  background: #4094c5 !important; }
+
+.i-header-li.active > a > .separador.li-quien {
+  display: block;
+  background: #ae2a98 !important; }
+
+.i-h-l-ul {
+  list-style-type: none;
+  display: inline-flexbox;
+  line-height: 2.09rem; }
+
+.i-h-l-ul > li {
+  margin-bottom: 22px;
+  font-size: 1.2rem; }
+  .i-h-l-ul > li a > .separador {
+    max-width: 77px; }
+
+.i-h-l-btn {
+  color: #fff !important;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0 0.5rem 0 0; }
+
+.i-h-t {
+  background-color: #b1b1b1; }
+
+.i-iat-acerca {
+  background-color: #262626;
+  border-radius: 4px; }
+
+.i-iat-acerca > h2 {
+  color: #fff;
+  font-weight: 500; }
+
+.i-iat > .separador {
+  background-color: #d60b52; }
+
+.i-iat-edificio-img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 12px; }
+
+.i-iat-p > p {
+  color: #262626; }
+
+.i-iat-h {
+  color: #fff; }
+
+.i-map > h3 {
+  color: #262626;
+  font-weight: 500; }
+
+.i-iat-maps {
+  background-color: #262626;
+  color: white; }
+  .i-iat-maps .separador {
+    background: white; }
+  .i-iat-maps div > iframe {
+    border-radius: 12px; }
+
+.i-suscribirse {
+  border-top: 6px solid #262626;
+  background-color: #464646;
+  color: #fff; }
+  .i-suscribirse div > .separador {
+    background-color: #fff; }
+
+.i-suscribirse-box {
+  width: 64px; }
+
+.i-h-l-l {
+  max-width: 150px; }
+
+.i-b {
+  height: 200px;
+  cursor: pointer; }
+
+.i-b > div > h2 {
+  font-family: frutiger_roman;
+  font-weight: 700;
+  padding-inline-start: 0.515rem;
+  font-size: 1.2rem;
+  padding-block-end: 19px; }
+  .i-b > div > h2:active {
+    color: #262626; }
+
+.botonera-quienes {
+  background: linear-gradient(0deg, #682479 0%, #e22a82 100%);
+  color: #262626; }
+  .botonera-quienes:hover #h2iat-quienes {
+    color: #fff;
+    transition: 0.125s; }
+  .botonera-quienes:focus {
+    transition: 0.4s; }
+    .botonera-quienes:focus #h2iat-quienes {
+      color: #fff; }
+
+.botonera-cursos {
+  background: linear-gradient(0deg, #3878bd 0%, #49b1cd 100%);
+  color: #262626; }
+  .botonera-cursos:hover #h2iat-cursos {
+    color: #fff;
+    transition: 0.125s; }
+
+.botonera-proyectos {
+  background: linear-gradient(0deg, #8ebe22 0%, #f9cf00 100%);
+  color: #262626; }
+  .botonera-proyectos:hover #h2iat-proyectos {
+    color: #fff;
+    transition: 0.125s; }
+
+.botonera-contacto {
+  background: linear-gradient(0deg, #eb5d79 0%, #f9b83a 100%);
+  color: #262626; }
+  .botonera-contacto:hover #h2iat-contacto {
+    color: #fff;
+    transition: 0.125s; }
+
+.offcanvas-start {
+  width: 280px; }
+
+.offcanvas-top {
+  height: 190px; }
+
+.modal-backdrop.show {
+  opacity: .3; }
+
+.circle {
+  height: 12px;
+  width: 12px;
+  background-color: #d60b52;
+  border-radius: 50%; }
+
+.evento {
+  border: 1px solid #fff0;
+  background-color: #fff;
+  border-radius: 11px; }
+  .evento:hover {
+    background-color: #f8f6f6;
+    -webkit-transform: scale(1.01);
+    transition: 0.1s;
+    border-color: #bebebe; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 16px; }
+  .i-b {
+    height: 200px; }
+  .offcanvas-start {
+    width: 480px; } }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px; }
+    html .i-b {
+      height: 200px; } }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 20px; }
+    html .i-b {
+      height: 250px; }
+    html .i-header-ul-menu {
+      display: block; }
+    html .i-header-ul {
+      list-style-type: none;
+      display: flex;
+      line-height: 2.5rem; }
+    html .nav_icon_search {
+      position: relative;
+      transform: translate(0.8rem, 2.2rem); }
+    html .nav_icon {
+      display: none; }
+    html .offcanvas-top {
+      height: 250px; }
+    html .nav_icon_menu {
+      height: 4.2vh; } }
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 22px; }
+    html .i-b {
+      height: 300px; }
+    html .nav_icon_menu {
+      height: 5.2vh; } }
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 24px; }
+    html .i-b {
+      height: 360px; } }
+
+@media (min-width: 1690px) {
+  html {
+    font-size: 24px; }
+    html .i-b {
+      height: 360px; } }

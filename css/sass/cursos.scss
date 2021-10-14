@@ -1,0 +1,679 @@
+@import "vars.scss";
+
+
+$title-regular: frutiger_roman;
+$title-italic: frutiger_italic;
+$text-regular: dosisregular;
+$text-bold: dosisbold;
+
+$background-color: #fff;
+$color-black: #262626;
+$color-black-dark: #1C1C1C;
+$gris-claro-bebe:#bebebe;
+$gris-grid:#E9E9E9;
+$gris-medio-46:#464646;
+$gris-alto-26:#262626;
+
+
+$color-index: rgba(214, 11, 82, 1);
+$color-index-b:rgba(255, 13, 98, 1);
+// $color-index-g: rgba(249, 184, 58, 1);
+$color-quienes: rgba(226, 42, 130, 1);
+$color-quienes-b: rgba(226, 136, 179, 1);
+$color-cursos: rgba(73, 177, 205, 1);
+
+
+$color-cursos-foto: rgba(73, 177, 205, 1);
+$color-cursos-audio: rgba(64, 148, 197, 1);
+
+$color-cursos-dise: rgba(49, 122, 191, 1);
+
+
+$color-cursos-b: rgba(143, 192, 205, 1);
+$color-proyectos: rgba(249, 207, 0, 1);
+$color-proyectos-b: rgba(249, 232, 149, 1);
+$color-contacto: rgba(38, 38, 38, 1);
+$color-contacto-b: rgba(70, 70, 70, 1);
+$gradient-index: linear-gradient($color-index, $color-black);
+$gradient-cursos: linear-gradient(0deg, $color-cursos-audio 0%, $color-cursos-dise 100%);
+$linear: linear-gradient(180deg, #E8178A -30.13%, #D91A5B -30.11%, #262626 141.85%);
+
+
+
+
+.container-area-curso{
+    // background-color: black;
+    // padding-bottom: 2rem;
+    padding-top: 2rem;
+    min-width: 300px;
+    // max-width: 400px;
+    // width: 100%;
+    transition: 1s;
+    a {
+        text-decoration: none;
+        h2{
+        color: $background-color;}
+
+        &:hover{
+            h2{
+            color: $color-black;
+            font-weight: 700;}
+        
+        }
+    }
+
+    
+    
+}
+
+.container-area-curso-btn{
+    width: 100%;
+    min-height: 125px;
+    border: none;
+    padding-inline-start: 12px;
+    // filter: drop-shadow(1px 1px 1px $color-black);
+    border-bottom: 10px solid $background-color;
+    text-decoration: none;
+    border-radius: 6px;
+    
+}
+
+
+.foto{
+    background-color: $color-cursos-foto !important;
+}
+
+.dise{
+    background-color: $color-cursos-dise !important;
+}
+
+.audio {
+    background-color: $color-cursos-audio !important;
+}
+
+.container-area-matricula{
+    background-color: $background-color;
+    margin-bottom: 1rem;
+}
+
+.container-area-matricula > img {
+    width: 100%;
+}
+
+.faq{
+    background-color: #464646;
+    color: $background-color;
+    .separador{
+        background-color: $background-color;
+    }
+}
+
+
+.faq-pregunta{
+    background-color: $background-color;
+    color: #262626
+    
+    
+}
+
+.pregunta{
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #b1b1b1;
+}
+
+.pregunta > p {
+        color: #464646;
+        font-weight: 500;
+        font-size: 1.15rem;
+}
+
+
+.yt-container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-encabezado-cursos{
+    background-color: $color-black;
+    color: $background-color;
+
+    h1{
+        color: $background-color;
+    }
+
+}
+
+.container-encabezado-cursos > div > .separador{
+    background-color: $background-color;
+}
+
+
+
+
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ececec;
+    border-radius: 6px;
+    // max-width: 600px;
+    // margin: 50px auto;
+    // padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    // padding: 25px;
+    // transition: background-color 0.1s ease-in-out;
+    background-color: #BEBEBE;
+    font-weight: bold;
+    text-align:center;
+    font-size: 34px;
+    min-height: 85px;
+}
+
+.mytabs label > .separador {
+    background-color: #BEBEBE;
+}
+
+
+.mytabs .tab {
+    width: 100%;
+    padding-top: 29px;
+    // padding: 20px;
+    background-color: #ececec;
+    transition: opacity 0.8s ease-in-out;
+    order: 1;
+    display: none;
+    
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #ececec;
+    .separador{
+        transition: background-color 0.2s ease;
+        background-color: #262626;
+    }
+
+    h3{
+    font-size: 1.81rem;
+    font-weight: 600;
+    color: $color-black;
+    }
+}
+
+
+
+// fotografia 
+
+.area{
+    background-color: $background-color;
+}
+
+.area-encabezado{
+    
+    color: $color-black;
+}
+
+.retornar{
+    
+    a{
+        text-decoration: none;
+        h5{
+            color: $color-black;
+            font-weight: 600;
+            &:hover{
+                
+                color: $color-cursos-dise;
+
+            }
+        }
+    }
+}
+
+
+.iat-curso-card{
+    background-color: $gris-claro-bebe;
+    // border: 1px solid;
+    color: $background-color;
+    margin-bottom: 35px;
+    margin-top: 15px;
+
+    a{
+        color: $color-black;
+    }
+}
+
+.condiciones-matricula{
+    background-color: $color-cursos-audio;
+    border-radius: 12px;
+    color: $background-color;
+    
+}
+
+.iat-curso-card-info{
+    background-color: #b1b1b1;
+    // border-bottom: 18px solid #bebebe;
+}
+
+.iat-curso-card-info.area-fotografia{
+    background-color: $color-black-dark;
+    border-bottom: 18px solid #bebebe;
+}
+
+.iat-curso-card-info.area-audiovisual{
+    background-color: $color-black-dark;
+    border-bottom: 18px solid #bebebe;
+}
+
+.iat-curso-card-info.area-edicion-digital{
+    background-color: $color-black-dark;
+    border-bottom: 18px solid #bebebe;
+}
+
+
+.iat-curso-card-info-matricula.area-fotografia{
+    color: $background-color;
+    
+}
+
+.iat-curso-card-info-matricula.area-audiovisual{
+    color: $background-color;
+}
+
+.iat-curso-card-info-matricula.area-edicion-digital{
+    color: $background-color;
+}
+
+
+.iat-curso-card-info-matricula{
+    &:hover{
+        color: $background-color !important;
+    }
+}
+
+
+.iat-curso-card-info-matricula.PRONTO{
+    color: $background-color;
+}
+
+.iat-curso-card-div-matricula{
+    margin-bottom: 3.2px;
+}
+
+.iat-curso-card-div-matricula.area-fotografia{
+    background-color: $color-cursos-foto;
+    // border: 1px solid $color-black;
+    border-radius: 4px;
+    cursor: pointer;
+    
+   
+}
+
+.iat-curso-card-div-matricula.area-fotografia-curso{
+    background-color: $color-cursos-foto;
+    // border: 1px solid $color-black;
+    border-radius: 4px;
+    
+    border: 1px solid $color-black;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    
+            text-decoration: none;
+            color: $background-color;
+            &:hover{
+                -webkit-transform: scale(1.125);
+                transition: 0.31s;
+                
+            }
+}
+
+.iat-curso-card-div-matricula.area-audiovisual-curso{
+    background-color: $color-cursos-audio;
+    // border: 1px solid $color-black;
+    border-radius: 4px;
+    
+    border: 1px solid $color-black;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    
+            text-decoration: none;
+            color: $background-color;
+            &:hover{
+                -webkit-transform: scale(1.125);
+                transition: 0.31s;
+                
+            }
+}
+
+.iat-curso-card-div-matricula.area-edicion-digital-curso{
+    background-color: $color-cursos-dise;
+    // border: 1px solid $color-black;
+    border-radius: 4px;
+    
+    border: 1px solid $color-black;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    
+            text-decoration: none;
+            color: $background-color;
+            &:hover{
+                -webkit-transform: scale(1.125);
+                transition: 0.31s;
+                
+            }
+}
+
+.iat-curso-card-div-matricula.area-fotografia-curso.card{
+    border: 1px solid #ffffff00 !important;
+    cursor: default;
+}
+
+.iat-curso-card-div-matricula.area-edicion-digital-curso.card{
+    border: 1px solid #ffffff00 !important;
+    cursor: default;
+}
+
+.iat-curso-card-div-matricula.area-audiovisual-curso.card{
+    border: 1px solid #ffffff00 !important;
+    cursor: default;
+}
+
+   
+
+   
+
+.iat-curso-card-div-matricula.area-audiovisual{
+    background-color: $color-cursos-audio;
+    // border: 1px solid $color-black;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+.iat-curso-card-div-matricula.area-edicion-digital{
+    background-color: $color-cursos-dise;
+    // border: 1px solid $color-black;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+
+
+.iat-curso-card-info-btn-ver-mas{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    a{
+        // margin: 4rem;
+        display: block;
+        width: 100%;
+        padding: .6rem 1rem .6rem 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-family: $text-bold;
+        font-size: 1.2rem;
+        
+    }
+}
+
+.iat-curso-card-info-btn-ver-mas.area-fotografia{
+    background-color: $background-color;
+    border: 2.2px solid $color-black;
+    border-radius: 7px;
+   
+
+    
+    &:hover{
+        background-color: $color-cursos-foto;
+        a{color: $background-color;}
+        
+        // -webkit-transform: scale(1.2) 1s; 
+        // font-size: 1.51rem;
+        font-weight: 700;
+    }
+}
+
+
+.iat-curso-card-info-btn-ver-mas.area-audiovisual{
+    background-color: $background-color;
+    border: 2.2px solid $color-black;
+    border-radius: 7px;
+    &:hover{
+        background-color: $color-cursos-audio;
+        a{color: $background-color;}
+        // -webkit-transform: scale(1.2) 1s; 
+        // font-size: 1.51rem;
+        font-weight: 700;
+    }
+}
+
+.iat-curso-card-info-btn-ver-mas.area-edicion-digital{
+    background-color: $background-color;
+    border: 2.2px solid $color-black;
+    border-radius: 7px;
+    &:hover{
+        background-color: $color-cursos-dise;
+        a{color: $background-color;}
+        // -webkit-transform: scale(1.2) 1s; 
+        // font-size: 1.51rem;
+        font-weight: 700;
+    }
+}
+
+
+
+.iat-curso-card-btn-open{
+    position: relative;
+    transform: translate(.54rem,-1.8rem);
+    // min-width: 75px;
+    img{
+        width: 3rem;
+    }
+}
+
+.iat-curso-card-div-fecha{
+    font-size: 4.2rem;
+}
+
+.iat-curso-card-div-row-ver-mas{
+    transform: translateY(-9px);
+}
+
+
+.iat-card-horario{
+    h5{
+        margin: 0;
+    }
+    p{
+        margin: 0%;
+    }
+}
+
+.iat-curso-empty{
+    min-width: 40px;
+}
+
+
+.iat-curso-card-content{
+    // margin-bottom: 1rem;
+}
+
+.iat-curso-card-content > div > p > strong{
+    font-family: $title-regular;
+    font-size: 1.25rem;
+    font-weight: normal !important;
+    padding-bottom: 1rem;
+    line-height: 3rem;
+}
+
+.iat-curso-card-content > div > p > span{
+    font-family: $text-bold;
+    font-size: 1.9rem;
+}
+
+.iat-curso-card-content.area-fotografia > p >span{
+    color: $color-cursos-foto;
+}
+
+.iat-curso-card-content.duracion.area-fotografia > p >span{
+    font-size: 3.255rem;
+}
+
+.iat-curso-card-content.area-audiovisual > p >span{
+    color: $color-cursos-audio;
+}
+
+.iat-curso-card-content.duracion.area-audiovisual > p >span{
+    font-size: 3.255rem;
+}
+
+.iat-curso-card-content.area-edicion-digital > p >span{
+    color: $color-cursos-dise;
+}
+
+.iat-curso-card-content.duracion.area-edicion-digital> p >span{
+    font-size: 3.255rem;
+}
+
+
+.iat-curso-title{
+    background-color: $color-black-dark;
+    border-radius: 8px;
+    color: $background-color;
+    .separador{
+        background-color: $gris-claro-bebe;
+    }
+}
+
+
+.iat-curso-requisitio{
+    background-color: $color-black;
+    color: $background-color;
+    .separador{
+        background-color: $gris-claro-bebe;
+    }
+}
+.iat-curso-requerimiento-content{
+    display: table-cell;
+    color: $background-color;
+    .separador{
+        background-color: $gris-claro-bebe;
+    }
+}
+
+
+.iat-curso-requerimiento{
+    display: table;
+    // width: 100%;
+    background-color: $gris-medio-46;
+
+    
+}
+
+
+.iat-curso-grid-info{
+    
+     
+    .col-6{
+        background-color: $gris-grid;
+        // box-sizing: border-box;
+        // margin: 1rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        border: 5px solid white;
+        border-radius: 8px;
+        // font-size: 2rem;
+    }
+
+    .col-12{
+        background-color: $color-black;
+        color: $background-color;
+        border: 5px solid white;
+        padding: 1rem 0px 0px 1rem;
+    }
+}
+
+
+.curso_encabezado{
+    background-color: $color-cursos-audio;
+    color: $background-color;
+    font-weight: 600;;
+}
+
+
+
+
+
+
+
+
+// fotografia 
+
+// fotografia 
+
+
+.iat-curso-card-div-row-ver-mas{
+    transform: translateY(-9px);
+}
+
+
+@media (min-width: 576px) { 
+  
+.iat-curso-card-div-row-ver-mas{
+    transform: translateY(-29px);
+}
+
+.iat-curso-card-div-fecha{
+    font-size: 5.2rem;
+}
+
+
+.iat-curso-empty{
+    min-width: 45px;
+}
+
+
+.iat-curso-card-info-matricula{
+    font-size: 1.35rem;
+}
+
+
+}
+
+
+@media (min-width: 992px) { 
+  
+    .iat-curso-card-div-row-ver-mas{
+        transform: translateY(-49px);
+    }  
+
+    .iat-curso-card-info-matricula{
+        font-size: 1.5rem;
+    }
+
+    
+    .iat-curso-empty{
+        min-width: 55px;
+    }
+
+
+    }
